@@ -1,0 +1,50 @@
+.footer {
+    margin-top: 60px;
+    padding-inline: 80px;
+    width: auto;
+    height: 340px;
+    background-color: var(--color-dark);
+
+    &__header {
+        padding-block: 70px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__button {
+        width: 185px;
+        height: 45px;
+        background-color: var(--color-light);
+        border: var(--border-dark);
+        border-radius: var(--border-radius);
+        color: var(--color-dark);
+        font-weight: 700;
+        font-size: 16px;
+
+        @include hover {
+            background: var(--color-orange);
+        }
+    }
+
+    &__body {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 40px;
+        border-bottom: 1px solid rgba($color: #FFFFFF, $alpha: 0.16);
+
+        &-list {
+            display: flex;
+            column-gap: 16px;
+        }
+
+        &-link {
+            color: var(--color-light);
+            font-size: 16px;
+            font-weight: 400;
+
+            @include hover {
+                color: var(--color-orange);
+            }
+        }
+    }
+}

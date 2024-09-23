@@ -1,0 +1,14 @@
+.soc1als {
+    &__list {
+        display: flex;
+        column-gap: 50px;
+    }
+
+    &__link {
+        color: var(--color-light);
+
+        @include hover {
+            color: var(--color-orange);
+        }
+    }
+}

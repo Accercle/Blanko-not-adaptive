@@ -1,0 +1,26 @@
+:root {
+    --color-dark: #000000;
+    --color-light: #FFFFFF;
+    --color-orange: #FF7143;
+    --color-bg: #FDE7DA;
+    --color-gray: #AAAAAA;
+
+    --border-dark: 1px solid var(--color-dark);
+    --border-light: 1px solid var(--color-light);
+    --border-radius: 6px;
+
+    --box-shadow: 0px 24px 24px 0px rgba(0, 0, 0, 0.12);
+    --box-shadow-small: 0px 8px 8px 0px rgba(16, 19, 80, 0.12);
+
+    --font-family-base: 'Roboto', 'sans-serif';
+
+    --container-width: 1440px;
+    --container-padding-x: 80px;
+
+    --section-padding-y: 45px;
+
+    --input-height: 64px;
+    --button-height: 48px;
+
+    --transition-duration: 1s;
+}
